@@ -1,0 +1,71 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Press Start 2P", system-ui;
+    color: rgb(255, 255, 255);
+}
+
+body {
+    height: 100vh;
+    background: url('img/moranguinho.jpg') center no-repeat;
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    row-gap: 3rem;
+
+}
+
+
+#date {
+
+    font-family: "Press Start 2P", system-ui;
+    font-size: 0.7rem;
+     color: rgb(255, 248, 155);
+     text-shadow: 2px 2px rgb(68, 68, 68) ;
+}
+
+.relogio {
+
+    background: rgb(159, 221, 117);
+    background: rgba(200, 253, 165, 0.329);
+    width: 30%;
+    padding: 8% 0;
+    border-radius: 5px;
+    backdrop-filter: blur(8px);
+    border: 2px pink;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    justify-content: center;
+    border-radius: 1rem;
+
+    
+}
+
+.relogio div {
+   background-color: rgba(130, 185, 93, 0.795);
+   width: 20%;
+   margin: 2%;
+   display: flex;
+   flex-direction: column;
+   border-radius: 0.5rem;
+   align-items: center;
+   padding: 5%;
+   height: 2rem;
+   
+}
+
+@media (max-width: 500px) {
+        .relogio {
+        height: 40vh;
+        width: 90%;
+
+        flex-direction: column;
+    }
+}
